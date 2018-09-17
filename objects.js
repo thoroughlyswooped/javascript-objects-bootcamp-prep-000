@@ -6,6 +6,7 @@ function updatePlaylist(playlist, artist, song) {
 }
 
 function removeFromPlaylist(playlist, artist) {
+  //have to use brackets because artist is a variable
   delete playlist[artist];
   return playlist;
 }
